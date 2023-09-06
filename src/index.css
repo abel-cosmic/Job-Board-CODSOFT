@@ -7,3 +7,9 @@
 body {
   font-family: "Work Sans";
 }
+.heading3{
+  @apply font-medium text-xl
+}
+.title{
+  @apply font-semibold text-6xl
+}
