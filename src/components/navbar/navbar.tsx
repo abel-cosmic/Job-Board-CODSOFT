@@ -18,7 +18,7 @@ const NavBar: React.FC = () => {
   };
   return (
     <div
-      className={`shadow w-full fixed top-0 left-0 py-6 px-10 flex flex-row justify-between ${
+      className={`shadow w-full fixed bg-white backdrop-blur-md top-0 left-0 py-6 px-10 flex flex-row justify-between ${
         isMenuActive ? "items-start" : "items-center"
       }`}
     >
